@@ -1,3 +1,35 @@
+
+nav {
+    height: 50px;
+    background-color: #ff80ff;
+    display: flex;
+    margin-bottom: 10px;
+}
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+
+nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+  }
+.p {
+    background-color: rgb(255, 255, 128);
+    color: rgb(199, 46, 46);
+  }
+
 @font-face {
     font-family: "NYT";
     src: url("https://g1.nyt.com/fonts/family/cheltenham-cond/cheltenham-cond-normal-700.9d3e47dbcdfcd125da0457426ac86b9b.woff2") format("woff2"),
