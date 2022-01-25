@@ -1,3 +1,11 @@
-h1 {
+@font-face {
+    font-family: "NYT";
+    src: url("https://g1.nyt.com/fonts/family/cheltenham-cond/cheltenham-cond-normal-700.9d3e47dbcdfcd125da0457426ac86b9b.woff2") format("woff2"),
+   }
+
+h1,p {
     color: red;
-  }  
+    font-family:NYT;
+    } 
+
+   
