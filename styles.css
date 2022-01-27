@@ -1,4 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
 
+  body {
+    width: 70%;
+    margin: 0 auto;
+  }
 nav {
     height: 50px;
     background-color: #ff80ff;
