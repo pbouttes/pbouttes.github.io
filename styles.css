@@ -5,10 +5,10 @@ html, body {
 
   @font-face {
     font-family: "Pixel";
-    src: url('font\VT323-Regular.ttf') format('truetype');
+    src: url('/font/VT323-Regular.ttf') format('truetype');
    }  
   html{
-    background-image: url("img\fond.gif");
+    background-image: url("/img/fond.gif");
     background-size: cover;
     font-family: 'Pixel', Arial, serif;
   }
