@@ -3,11 +3,22 @@ html, body {
     padding: 0;
   }
 
+  @font-face {
+    font-family: "Pixel";
+    src: url('font/VT323-Regular.ttf') format('truetype');
+   }  
+  html{
+    background-image: url("img/fond.gif");
+    background-size: cover;
+    font-family: 'Pixel', Arial, serif;
+  }
+
   body {
     width: 70%;
     margin: 0 auto;
+    font-family: "Pixel";
   }
-nav {
+  nav {
     height: 50px;
     background-color: #ff80ff;
     display: flex;
@@ -34,18 +45,32 @@ nav form {
     padding: 0 2em;
   }
 .p {
-    background-color: rgb(255, 255, 128);
     color: rgb(199, 46, 46);
+    background-color: rgba(0,0,0,0.5);
   }
 
-@font-face {
-    font-family: "NYT";
-    src: url("https://g1.nyt.com/fonts/family/cheltenham-cond/cheltenham-cond-normal-700.9d3e47dbcdfcd125da0457426ac86b9b.woff2") format("woff2"),
-   }
+
 
 h1,p {
-    color: red;
-    font-family:fantasy;
+    color: rgb(137, 14, 194);
+    text-align: center;
+    font-size: 20px;
     } 
+h1{
+  font-size: 60px;
+}
+
+main li{
+  font-size: 20px;
+  text-align: center;
+}
+main{
+  align-items: center;
+}
+
+body{
+  color: rgb(137, 14, 194);
+  text-align: center;
+}
 
    
